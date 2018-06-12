@@ -4,7 +4,6 @@
     <list default="true" id="2f49c5f4-84f8-410f-9efb-2a1c7ea19b3a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/styles.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,20 +16,20 @@
     <splitter split-orientation="horizontal" split-proportion="0.76791275">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/frontend/styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="273">
-                  <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+                <state relative-caret-position="358">
+                  <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/frontend/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="201">
-                  <caret line="195" column="53" lean-forward="true" selection-start-line="195" selection-start-column="53" selection-end-line="195" selection-end-column="53" />
+                <state relative-caret-position="148">
+                  <caret line="149" column="40" selection-start-line="149" selection-start-column="40" selection-end-line="149" selection-end-column="40" />
                 </state>
               </provider>
             </entry>
@@ -122,6 +121,8 @@
       <find>displayTime</find>
       <find>ip</find>
       <find>News Api</find>
+      <find>createView</find>
+      <find>deleteTableRows</find>
     </findStrings>
     <replaceStrings>
       <replace>ffffff</replace>
@@ -157,8 +158,8 @@
         <option value="$PROJECT_DIR$/assets/icon.svg" />
         <option value="$PROJECT_DIR$/info.json" />
         <option value="$PROJECT_DIR$/frontend/template.php" />
-        <option value="$PROJECT_DIR$/frontend/script.js" />
         <option value="$PROJECT_DIR$/frontend/styles.css" />
+        <option value="$PROJECT_DIR$/frontend/script.js" />
       </list>
     </option>
   </component>
@@ -284,7 +285,7 @@
       <workItem from="1528796436099" duration="1228000" />
       <workItem from="1528799147970" duration="747000" />
       <workItem from="1528799917727" duration="267000" />
-      <workItem from="1528800465556" duration="26962000" />
+      <workItem from="1528800465556" duration="32950000" />
     </task>
     <task id="LOCAL-00001" summary="added sortBy Param">
       <created>1528802752242</created>
@@ -356,11 +357,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528829764269</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="corrected position of rss icon">
+      <created>1528830769533</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1528830769533</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97406000" />
+    <option name="totallyTimeSpent" value="103394000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -418,7 +426,8 @@
     <MESSAGE value="image got border and round corners&#10;placeholder works" />
     <MESSAGE value="fixed all image displaying&#10;but alignment with long text dosnt work" />
     <MESSAGE value="fixed width of td" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed width of td" />
+    <MESSAGE value="corrected position of rss icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected position of rss icon" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/frontend/template.php">
@@ -720,17 +729,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/script.js">
+    <entry file="file://$PROJECT_DIR$/frontend/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="195" column="53" lean-forward="true" selection-start-line="195" selection-start-column="53" selection-end-line="195" selection-end-column="53" />
+        <state relative-caret-position="358">
+          <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/styles.css">
+    <entry file="file://$PROJECT_DIR$/frontend/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        <state relative-caret-position="148">
+          <caret line="149" column="40" selection-start-line="149" selection-start-column="40" selection-end-line="149" selection-end-column="40" />
         </state>
       </provider>
     </entry>

@@ -147,13 +147,13 @@ function reloadNewsapi() {
 
         //console.info("***********refresh newsapi************");
 
-        var tr; // the current table row where data gets added
-
-        $('tr.newsapi_tr').remove(); // remove old view from table row
+        // Removing old rows from table
+        $('tr.newsapi_tr').remove();
 
         for(var i = 0; i <= data.length; i++) {
 
-            tr = $('<tr class="newsapi_tr"/>');
+            // the current table row where data gets added
+            var tr = $('<tr class="newsapi_tr"/>').hide();
 
             if (data[i] !== undefined) {
 
@@ -194,9 +194,7 @@ function reloadNewsapi() {
                 if (!newsapi_options.showQrCodes && !newsapi_options.showImages) {
 
                     tr.append("<td class='newsapi_td_icon'><img class='newsapi_image_icon' src='/modules/newsapi/assets/rss.svg'/></td>");
-
                 }
-
 
                 var appendix = "";
                 // Appending the source name
@@ -205,10 +203,12 @@ function reloadNewsapi() {
                     appendix = "<br/><i class='newsapi_source'>"  + data[i].source.name + "</i>";
                 }
 
-                tr.append("<td >" + data[i].title + appendix + "</td>");
+                tr.append("<td>" + data[i].title + appendix + "</td>");
 
                 // Appending the row to the table
                 $('.newsapi_table').append(tr);
+
+                $(tr).show('slow');
             }
         }
     }
