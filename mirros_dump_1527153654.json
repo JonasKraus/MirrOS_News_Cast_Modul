@@ -1,0 +1,77 @@
+{
+    "version": "0.7.2",
+    "php_version": "7.0.27-0+deb9u1",
+    "date": "2018-05-24 11:20:54",
+    "crypted": "false",
+    "tutorial": "https:\/\/glan.cr\/import-export-dump",
+    "user": {
+        "name": "Jonas",
+        "email": "jonaskraus777@googlemail.com"
+    },
+    "keys": {
+        "branch": "stable",
+        "calendar_next_calendars": "[{\"name\":\"https:\/\/calendar.google.com\/calendar\/ical\/jonaskraus777%40googlemail.com\/private-4741d63d8d13f043ac380f7b6bf15c39\/basic.ics\",\"timeShift\":\"+0\"},{\"name\":\"https:\/\/calendar.google.com\/calendar\/ical\/de.german%23holiday%40group.v.calendar.google.com\/public\/basic.ics\",\"timeShift\":\"0\"}]",
+        "calendar_today_calendars": "[{\"name\":\"https:\/\/calendar.google.com\/calendar\/ical\/de.german%23holiday%40group.v.calendar.google.com\/public\/basic.ics\",\"timeShift\":\"+0\"},{\"name\":\"https:\/\/calendar.google.com\/calendar\/ical\/jonaskraus777%40googlemail.com\/private-4741d63d8d13f043ac380f7b6bf15c39\/basic.ics\",\"timeShift\":\"+0\"}]",
+        "city": "2871992",
+        "connectionType": "wlan",
+        "email": "jonaskraus777@googlemail.com",
+        "emailNotSent": "0",
+        "firstname": "Jonas",
+        "info_include_netatmo": "true",
+        "info_weatherIcons": "true",
+        "ip": "192.168.2.122",
+        "language": "de_DE",
+        "module_updates": "",
+        "newsapi_apiKey": "688dde82c7f243a5bad29d8db25befbf",
+        "newsapi_options": "{\"showImages\":\"yes\",\"showQrCodes\":\"yes\",\"showSources\":\"yes\",\"country\":\"de\"}",
+        "owmApiKey": "130083332484933e5f257223ad497769",
+        "reload": "0",
+        "spotify_access_token": "BQBYbkjefcqFVTO0yRob9ewG9DCOSe05VKuEh4AgEKIjLmD-iihZkwhSLqXd2wnfu7wTIwXFRMCg6Av5W_dY3DXmiRvmBNJphMNkXY9R4iWzzVnbXaxAeZpCEgPm5EptX11dIPJoZg-CSffULsoZBgpqIeE",
+        "spotify_client_id": "e9cc4dfcd5524596a4309e39e944b07e",
+        "spotify_client_secret": "5ea26abb061343ee948e29decc47c4d7",
+        "spotify_code": "AQBNYXRwkKEz1KkDHd2PUxJ4TBskNYyBSORYRx1kFRIspkqRcmkae2oLgjY2z_bRoi2A3bLzfymZCZaEuHL3aaiOcNi9cclVpAibBSpjNWB6PC1msuPcDGHGc8SbdaREb5P2do8tOSofRVMssXDzNKZjTzGLP6I7AnctoBAkuIO4xcz5ch4MvRtda9q5xxCBS0qbu9Au2hvJlVZumZMxKjOgTrKkvgxF-unA9YJ9IZW8K0BOKtnflhOiGQ3PcJobH7I8dLcEnXORC6jr6dPX098jtHKQU-WFdi55EFBXnuP5SqVNQQ",
+        "spotify_expires_at": "1527156205",
+        "spotify_redirect_uri": "http%3A%2F%2F192.168.2.122%2Fmodules%2Fspotify%2Fassets%2Fcallback.php",
+        "spotify_refresh_token": "AQDNLaHPYY2iBtr4bLVH54QDeEzz5lJYm-hTo8Ebyvo44BA4aJ_y3CTd2Lxwk_yZwF0aQLukxot2ra3uedZ-nHwG0rQLaqs72_Af-KAwh1B8pOLDFqwA3QPpgyhMW6uQMD4",
+        "system_updates": "",
+        "timeformat": "24",
+        "weather_weatherIcons": "true",
+        "wlanInvisible": "0",
+        "wlanName": "WLAN-QJ7UNP",
+        "wlanPass": "6349399970356359"
+    },
+    "installed_modules": [
+        {
+            "name": "calendar_week",
+            "version": "1.0.2"
+        },
+        {
+            "name": "calendar_today",
+            "version": "1.1.0"
+        },
+        {
+            "name": "info",
+            "version": "1.2.0"
+        },
+        {
+            "name": "spotify",
+            "version": "1.0.1"
+        },
+        {
+            "name": "newsapi",
+            "version": "0.0.0"
+        },
+        {
+            "name": "weather",
+            "version": "1.1.0"
+        },
+        {
+            "name": "news",
+            "version": "2.0.2"
+        },
+        {
+            "name": "calendar_next",
+            "version": "1.1.0"
+        }
+    ]
+}

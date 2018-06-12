@@ -1,0 +1,82 @@
+# mirr.OS v0.1.2.
+# Copyright (C) 2016
+# This file is distributed under the same license as the PACKAGE package.
+# mattes <ma@glancr.de>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mirr.OS module Branding\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-11 18:43+0200\n"
+"PO-Revision-Date: 2017-10-11 18:43+0200\n"
+"Last-Translator: Tobias Grasse <mail@tobias-grasse.net>\n"
+"Language-Team: Tobias Grasse <tg@glancr.de>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: backend/template.php:4
+msgid "text_field_title"
+msgstr "Text field"
+
+#: backend/template.php:5
+msgid "text_field_description"
+msgstr "Display text or even HTML on your glancr!"
+
+#: backend/template.php:6
+msgid "left"
+msgstr "left"
+
+#: backend/template.php:7
+msgid "center"
+msgstr "center"
+
+#: backend/template.php:8
+msgid "right"
+msgstr "right"
+
+#: backend/template.php:15
+msgid "Enter the text you want to display, choose its font size and alignment."
+msgstr ""
+
+#: backend/template.php:19
+msgid "Choose how you want the text aligned in its cell."
+msgstr ""
+
+#: backend/template.php:31
+msgid ""
+"Choose the scale at which you want your text to display. Larger values "
+"results in larger text."
+msgstr ""
+
+#: backend/template.php:34
+msgid "Enter your text here!"
+msgstr ""
+
+#: backend/template.php:39
+msgid "save"
+msgstr "save"
+
+#~ msgid "branding_title"
+#~ msgstr "Branding/Logo"
+
+#~ msgid "No logo set. Upload an image."
+#~ msgstr "No logo set. Upload an image."
+
+#~ msgid "Please choose a valid image file (JPEG, PNG, GIF)."
+#~ msgstr "Please choose a valid image file (JPEG, PNG, GIF)."
+
+#~ msgid "Please choose an image file from your hard disk."
+#~ msgstr "Please choose an image file from your hard disk."
+
+#~ msgid "dummy_title"
+#~ msgstr "Dummy"
+
+#~ msgid "dummy parameter"
+#~ msgstr "dummy parameter"

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Getting server updates</h1>
+<div id="result"></div>
+
+<script>
+
+    if(typeof(EventSource) !== "undefined") {
+
+        var source = new EventSource("notifyServer.php");
+
+        source.onopen = function(data) {
+
+            //console.info(data);
+        };
+
+        source.onmessage = function(event) {
+
+            console.info(event);
+            document.getElementById("result").innerHTML += event.data + "<br>";
+        };
+
+        source.onerror = function (error) {
+
+            //console.info(error);
+        }
+    } else {
+        document.getElementById("result").innerHTML = "Sorry, your browser does not support server-sent events...";
+    }
+</script>
+
+</body>
+</html>

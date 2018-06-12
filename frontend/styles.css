@@ -1,0 +1,40 @@
+.newsapi_image {
+    object-fit: cover;
+    height:100px;
+    width:100px;
+    margin-right: 12px;
+}
+
+.newsapi_image_div {
+    padding: 5px;
+    padding-bottom: 0px;
+    margin-top: -5px;
+    background-color: white;
+    margin-right: 12px;
+}
+
+.newsapi_qr_code {
+    margin-right: 12px;
+}
+
+.newsapi_source {
+    margin-right: 12px;
+}
+
+td.newsapi_icon {
+    background: url("../assets/rss.svg") no-repeat;
+    width: 20px;
+    margin-right: 5px;
+    margin-top: 10px !important;
+}
+
+.newsapi_empty_image {
+    border: 1px solid white;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}
+
+tr td table {
+    text-align: left;
+}
