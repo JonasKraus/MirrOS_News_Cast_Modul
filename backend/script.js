@@ -10,12 +10,14 @@ $('#text_field__edit').click(function() {
     let showQrCodes = $('#newsapi_show_qrCodes').val();
     let showSources = $('#newsapi_show_sources').val();
     let country = $('#newsapi_country').val();
+    let sortBy = $('#newsapi_sortBy').val();
 
     let options = {
         showImages: showImages,
         showQrCodes: showQrCodes,
         showSources: showSources,
-        country: country
+        country: country,
+        sortBy: sortBy,
     }
 
     $.post('setConfigValueAjax.php', {'key': 'newsapi_options', 'value': JSON.stringify(options)});

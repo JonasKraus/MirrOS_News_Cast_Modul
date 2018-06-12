@@ -17,27 +17,32 @@ $(document).ready(function () {
     newsapi_apiKey = "<?php echo getConfigValue('newsapi_apiKey'); ?>";
     newsapi_options = JSON.parse('<?php echo getConfigValue("newsapi_options"); ?>');
 
-    if (newsapi_options.country == "undefined") {
+    if (newsapi_options.country == null) {
 
         newsapi_options.country = "de";
     }
 
-    if (newsapi_options.showImages == "undefined") {
+    if (newsapi_options.showImages == null) {
 
         newsapi_options.showImages = "inline";
     }
 
-    if (newsapi_options.showQrCodes == "undefined") {
+    if (newsapi_options.showQrCodes == null) {
 
         newsapi_options.showQrCodes = "inline";
     }
 
-    if (newsapi_options.showSources == "undefined") {
+    if (newsapi_options.showSources == null) {
 
         newsapi_options.showSources = "inline";
     }
 
-    url = "https://newsapi.org/v2/top-headlines?country=" + newsapi_options.country  + "&apiKey=" + newsapi_apiKey;
+    if (newsapi_options.sortBy == null) {
+
+        newsapi_options.sortBy = "latest";
+    }
+
+    url = "https://newsapi.org/v2/top-headlines?country=" + newsapi_options.country  + "&apiKey=" + newsapi_apiKey + "&sortBy=" + newsapi_options.sortBy;
 
     reloadNewsapi();
 });

@@ -10,6 +10,7 @@ $defaults->showImages = true;
 $defaults->showQrCodes = true;
 $defaults->showSources = true;
 $defaults->country = 'de';
+$defaults->sortBy = 'latest';
 
 $apiKey = getConfigValue('newsapi_apiKey');
 $options = getConfigValue('newsapi_options');
@@ -31,6 +32,9 @@ if (empty($options->showSources)) {
 }
 if (empty($options->country)) {
     $options->country = $defaults->country;
+}
+if (empty($options->sortBy)) {
+    $options->sortBy = $defaults->sortBy;
 }
 
 ?>
@@ -84,6 +88,19 @@ if (empty($options->country)) {
             <?php
             foreach (['de', 'gb'] as $option) {
                 if ($option === $options->country) {
+                    print("<option selected value=\"$option\">". _($option));
+                } else {
+                    print("<option value=\"$option\">". _($option));
+                }
+            }
+            ?>
+        </select>
+
+        <label for="newsapi_sortBy"><?php echo _('Sorting of the articles.'); ?></label>
+        <select name="newsapi_sortBy" id="newsapi_sortBy">
+            <?php
+            foreach (['top', 'latest', 'popular'] as $option) {
+                if ($option === $options->sortBy) {
                     print("<option selected value=\"$option\">". _($option));
                 } else {
                     print("<option value=\"$option\">". _($option));

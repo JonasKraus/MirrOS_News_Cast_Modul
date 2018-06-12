@@ -2,16 +2,16 @@
   "module": {
     "name": "newsapi",
     "version": "0.0.0",
-    "description": "Zeige beliebigen Text oder HTML auf deinen glancr!",
-    "module_url": "https://glancr.de/module/produktivitaet/text/",
-    "download_url": "https://api.glancr.de/update/moduleZips/text_field-1.0.0.zip",
-    "category": "Produktivität",
+    "description": "Erhalte aktuelle Nachrichten auf dein Glancr und spiegel diese in deiner Smartphone App",
+    "module_url": "https://glancr.de/module/...", // TODO
+    "download_url": "https://api.glancr.de/update/moduleZips/..", // TODO
+    "category": "Nachrichten",
     "last_update": "YYYY-MM-DD"
   },
   "creator": {
     "name": "Jonas Kraus",
     "contact": "tg@glancr.de",
     "website": "https://www.glancr.de",
-    "profile": "https://glancr.de/entwickler/tobias-grasse/"
+    "profile": "..." // TODO
   }
 }
