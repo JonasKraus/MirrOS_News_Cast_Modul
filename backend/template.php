@@ -13,7 +13,11 @@ $defaults->country = 'de';
 $defaults->sortBy = 'latest';
 $defaults->check = false;
 $defaults->numDataToDisplay = 3;
+$defaults->displayTime = 10;
 
+$sortByOptions = ['top', 'latest', 'popular'];
+$countries = ['ar', 'au', 'at', 'be', 'br', 'bg', 'ca', 'cn', 'co', 'cu', 'cz', 'eg', 'fr', 'de', 'gr', 'hk', 'hu', 'in', 'id', 'ie', 'il', 'it', 'jp', 'lv', 'lt', 'my', 'mx', 'ma', 'nl', 'nz', 'ng', 'no', 'ph', 'pl', 'ro', 'ru', 'sa', 'rs', 'sg', 'sk', 'si', 'za', 'kr', 'se', 'ch', 'tw', 'th', 'tr', 'ae', 'us', 'gb', 'us', 've'];
+sort($countries, SORT_STRING);
 
 $apiKey = getConfigValue('newsapi_apiKey');
 $options = getConfigValue('newsapi_options');
@@ -32,6 +36,9 @@ if (empty($options->sortBy)) {
 }
 if (empty($options->numDataToDisplay)) {
     $options->numDataToDisplay = $defaults->numDataToDisplay;
+}
+if (empty($options->displayTime)) {
+    $options->displayTime = $defaults->displayTime;
 }
 
 
@@ -70,7 +77,7 @@ if (empty($options->numDataToDisplay)) {
         <label for="newsapi_country"><?php echo _('Choose the origin of the news.'); ?></label>
         <select name="newsapi_country" id="newsapi_country">
             <?php
-            foreach (['de', 'gb'] as $option) {
+            foreach ($countries as $option) {
                 if ($option === $options->country) {
                     print("<option selected value=\"$option\">". _($option));
                 } else {
@@ -83,7 +90,7 @@ if (empty($options->numDataToDisplay)) {
         <label for="newsapi_sortBy"><?php echo _('Sorting of the articles.'); ?></label>
         <select name="newsapi_sortBy" id="newsapi_sortBy">
             <?php
-            foreach (['top', 'latest', 'popular'] as $option) {
+            foreach ($sortByOptions as $option) {
                 if ($option === $options->sortBy) {
                     print("<option selected value=\"$option\">". _($option));
                 } else {
@@ -101,6 +108,16 @@ if (empty($options->numDataToDisplay)) {
                min="1"
                max="20"
                value="<?php print $options->numDataToDisplay; ?>"
+        />
+
+        <label for="newsapi_display_time"><?php echo _('Set how many seconds the articles will be displayed.'); ?></label>
+        <input type="number"
+               name="newsapi_display_time"
+               id="newsapi_display_time"
+               step="1"
+               min="1"
+               max="3600"
+               value="<?php print $options->displayTime; ?>"
         />
 
         <label for="newsapi_apiKey"><?php echo _('Insert your ApiKey:<br>(To generate an ApiKey register <a href="https://newsapi.org/register" target="_blank">here</a>)') ?></label>

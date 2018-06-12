@@ -3,8 +3,7 @@ var newsapi_apiKey,
     newsapi_options,
     url,
     articles = null,
-    dataPointer,
-    displayTime = 10000; // TODO set as option
+    dataPointer;
 
 /**
  * On Ready
@@ -72,7 +71,7 @@ function reloadNewsapi() {
         window.setTimeout(function() {
 
             reloadNewsapi(); // looping
-        }, displayTime);
+        }, newsapi_options.displayTime * 1000); // Multiply by 1000 to get milliseconds
     });
 
 
@@ -259,7 +258,7 @@ function notifyServer(data) {
         data: {
                 data: data,
                 timestamp: timestamp,
-                displayTime: displayTime
+                displayTime: (newsapi_options.displayTime * 1000)
             },
         success: function (response) {
 

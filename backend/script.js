@@ -12,6 +12,7 @@ $('#text_field__edit').click(function() {
     let country = $('#newsapi_country').val();
     let sortBy = $('#newsapi_sortBy').val();
     let numDataToDisplay = $('#newsapi_num_articles').val();
+    let displayTime = $('#newsapi_display_time').val();
 
 
     let options = {
@@ -21,6 +22,7 @@ $('#text_field__edit').click(function() {
         country: country,
         sortBy: sortBy,
         numDataToDisplay: numDataToDisplay,
+        displayTime: displayTime,
     };
 
     console.info(options);

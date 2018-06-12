@@ -21,8 +21,8 @@
           <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/frontend/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+                <state relative-caret-position="489">
+                  <caret line="260" column="65" selection-start-line="260" selection-start-column="65" selection-end-line="260" selection-end-column="65" />
                 </state>
               </provider>
             </entry>
@@ -49,11 +49,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="template.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/backend/template.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="544">
-                  <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+                <state relative-caret-position="408">
+                  <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
                 </state>
               </provider>
             </entry>
@@ -67,11 +67,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/backend/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="13" column="60" lean-forward="true" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+                <state relative-caret-position="408">
+                  <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
                 </state>
               </provider>
             </entry>
@@ -99,7 +99,6 @@
       <find>articles</find>
       <find>border</find>
       <find>read</find>
-      <find>displayTime</find>
       <find>short</find>
       <find>notifyServer</find>
       <find>newsapi</find>
@@ -108,6 +107,7 @@
       <find>showImages</find>
       <find>showQrCodes</find>
       <find>numDataToDisplay</find>
+      <find>displayTime</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -137,8 +137,8 @@
         <option value="$PROJECT_DIR$/assets/articles.json" />
         <option value="$PROJECT_DIR$/info.json" />
         <option value="$PROJECT_DIR$/backend/script.js" />
-        <option value="$PROJECT_DIR$/backend/template.php" />
         <option value="$PROJECT_DIR$/frontend/script.js" />
+        <option value="$PROJECT_DIR$/backend/template.php" />
       </list>
     </option>
   </component>
@@ -263,7 +263,7 @@
       <workItem from="1528796436099" duration="1228000" />
       <workItem from="1528799147970" duration="747000" />
       <workItem from="1528799917727" duration="267000" />
-      <workItem from="1528800465556" duration="9232000" />
+      <workItem from="1528800465556" duration="11220000" />
     </task>
     <task id="LOCAL-00001" summary="added sortBy Param">
       <created>1528802752242</created>
@@ -279,11 +279,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528810740598</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added setting for num data to display">
+      <created>1528811979197</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1528811979197</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79676000" />
+    <option name="totallyTimeSpent" value="81664000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -333,7 +340,8 @@
     </ignored-roots>
     <MESSAGE value="added sortBy Param" />
     <MESSAGE value="chenged options to checkboxes" />
-    <option name="LAST_COMMIT_MESSAGE" value="chenged options to checkboxes" />
+    <MESSAGE value="added setting for num data to display" />
+    <option name="LAST_COMMIT_MESSAGE" value="added setting for num data to display" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/backend/script.js">
@@ -648,24 +656,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="60" lean-forward="true" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+        <state relative-caret-position="408">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="489">
+          <caret line="260" column="65" selection-start-line="260" selection-start-column="65" selection-end-line="260" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
