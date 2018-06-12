@@ -1,9 +1,7 @@
 <?php
 
-// Make sure these strings are available in the translation files, since they're partly derived from variables at runtime.
-
-_('yes');
-_('no');
+_('newsapi_title');
+_('newsapi_description');
 
 $defaults = new StdClass();
 $defaults->showImages = true;
@@ -43,8 +41,6 @@ if (empty($options->displayTime)) {
 
 
 ?>
-
-<p><?php echo _('Enter the text you want to display, choose its font size and alignment.'); ?></p>
 
 <form id="newsapi_form">
 
