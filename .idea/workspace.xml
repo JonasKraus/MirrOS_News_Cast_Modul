@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f49c5f4-84f8-410f-9efb-2a1c7ea19b3a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/placeholder_white.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/articles.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/articles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/currentArticles.json" beforeDir="false" afterPath="$PROJECT_DIR$/assets/currentArticles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fileWatcher.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/l.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/l.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/liveView.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/notifyServer.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/notifyServer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/rss.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/rss.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/storeArticles.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/storeArticles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/template.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info.json" beforeDir="false" afterPath="$PROJECT_DIR$/info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/styles.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,52 +15,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.60861653">
+    <splitter split-orientation="horizontal" split-proportion="0.76791275">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/frontend/styles.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="649">
+                  <caret line="46" column="51" lean-forward="true" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/frontend/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3774">
-                  <caret line="222" column="34" selection-start-line="222" selection-start-column="34" selection-end-line="222" selection-end-column="34" />
+                <state relative-caret-position="357">
+                  <caret line="162" column="51" selection-start-line="162" selection-start-column="51" selection-end-line="162" selection-end-column="51" />
                   <folding>
                     <element signature="n#style#0;n#i#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="notifyServer.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/notifyServer.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="currentArticles.json" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/currentArticles.json">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file leaf-file-name="icon.svg" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/assets/icon.svg">
-              <provider selected="true" editor-type-id="images" />
-            </entry>
-          </file>
-          <file leaf-file-name="l.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/l.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="rss.svg" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/rss.svg">
-              <provider selected="true" editor-type-id="images" />
             </entry>
           </file>
         </leaf>
@@ -98,8 +64,8 @@
           <file leaf-file-name="info.json" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/info.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+                <state relative-caret-position="51">
+                  <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -149,6 +115,7 @@
       <find>#</find>
       <find>ffffff</find>
       <find>displayTime</find>
+      <find>ip</find>
     </findStrings>
     <replaceStrings>
       <replace>ffffff</replace>
@@ -169,7 +136,6 @@
         <option value="$PROJECT_DIR$/locale/de_DE/LC_MESSAGES/text_field.po" />
         <option value="$PROJECT_DIR$/frontend/template.php" />
         <option value="$PROJECT_DIR$/readme" />
-        <option value="$PROJECT_DIR$/frontend/styles.css" />
         <option value="$PROJECT_DIR$/1.php" />
         <option value="$PROJECT_DIR$/assets/shortenLink.php" />
         <option value="$PROJECT_DIR$/assets/liveView.html" />
@@ -179,13 +145,14 @@
         <option value="$PROJECT_DIR$/backend/script.js" />
         <option value="$PROJECT_DIR$/assets/storeArticles.php" />
         <option value="$PROJECT_DIR$/assets/notifyServer.php" />
-        <option value="$PROJECT_DIR$/frontend/script.js" />
         <option value="$PROJECT_DIR$/assets/articles.json" />
         <option value="$PROJECT_DIR$/assets/currentArticles.json" />
         <option value="$PROJECT_DIR$/assets/l.php" />
         <option value="$PROJECT_DIR$/assets/rss.svg" />
         <option value="$PROJECT_DIR$/assets/icon.svg" />
         <option value="$PROJECT_DIR$/info.json" />
+        <option value="$PROJECT_DIR$/frontend/styles.css" />
+        <option value="$PROJECT_DIR$/frontend/script.js" />
       </list>
     </option>
   </component>
@@ -268,6 +235,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonas\Documents\Workspaces\PhpStorm\Glancr\MirrOS_News_Cast_Modul\newsapi\assets" />
       <recent name="C:\Users\Jonas\Documents\Workspaces\PhpStorm\Glancr\newsapi" />
     </key>
   </component>
@@ -310,7 +278,7 @@
       <workItem from="1528796436099" duration="1228000" />
       <workItem from="1528799147970" duration="747000" />
       <workItem from="1528799917727" duration="267000" />
-      <workItem from="1528800465556" duration="16668000" />
+      <workItem from="1528800465556" duration="21900000" />
     </task>
     <task id="LOCAL-00001" summary="added sortBy Param">
       <created>1528802752242</created>
@@ -347,11 +315,25 @@
       <option name="project" value="LOCAL" />
       <updated>1528815077514</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="deleted unused files and updated icon">
+      <created>1528820246934</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1528820246934</updated>
+    </task>
+    <task id="LOCAL-00007" summary="updated info.json">
+      <created>1528820674203</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1528820674203</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87112000" />
+    <option name="totallyTimeSpent" value="92344000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,16 +386,11 @@
     <MESSAGE value="added setting for num data to display" />
     <MESSAGE value="added display time as option" />
     <MESSAGE value="changed backend layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed backend layout" />
+    <MESSAGE value="deleted unused files and updated icon" />
+    <MESSAGE value="updated info.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated info.json" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -628,13 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/gettext/gettext.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -663,25 +633,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/notifyServer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/articles.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3774">
-          <caret line="222" column="34" selection-start-line="222" selection-start-column="34" selection-end-line="222" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#i#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/fileWatcher.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -697,22 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/l.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/rss.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/currentArticles.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/icon.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/storeArticles.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -722,8 +659,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/info.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="46" column="51" lean-forward="true" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/rss.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/l.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/icon.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/currentArticles.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/notifyServer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/placeholder_white.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="162" column="51" selection-start-line="162" selection-start-column="51" selection-end-line="162" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

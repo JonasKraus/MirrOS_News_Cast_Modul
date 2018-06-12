@@ -157,29 +157,26 @@ function reloadNewsapi() {
 
             if (data[i] !== undefined) {
 
-                // Adding the Image
+                // Adding the Image or placeholder
                 if (newsapi_options.showImages) {
 
+                    // check if an image url is set
                     if (data[i].urlToImage !== undefined && data[i].urlToImage !== null) {
 
-                        tr.append("<td width='100'><img class='newsapi_image' src='" + data[i].urlToImage + "'</td>");
+                        tr.append("<td width='120' height='120'><div class='newsapi_round_border'><img class='newsapi_image' src='" + data[i].urlToImage + "'/></div></td>");
                     } else {
 
-                        tr.append("<td><div " +
-                            "    background-color: black;\n" +
-                            "    height: 100px;\n" +
-                            "margin-right: 12px;" +
-                            "    width: 100px;'/></td>");
+                        tr.append("<td width='120' height='120'><div class='newsapi_round_border'><img class='newsapi_image' src='/modules/newsapi/assets/placeholder_white.svg'/></div></td>");
                     }
                 }
 
                 // Building the QR Code
                 if (newsapi_options.showQrCodes && data[i].url !== undefined) {
 
-                    var tdQrCode = $("<td height='100' width='100' class='newsapi_qr_code' />");
+                    var tdQrCode = $("<td width='120' height='120' class='newsapi_qr_code' />");
                     var div = $("<div class='newsapi_image_div'/>");
 
-                    var ip = "<?php echo $_SERVER['SERVER_ADDR']; ?>"
+                    var ip = "<?php echo $_SERVER['SERVER_ADDR']; ?>";
 
                     div.qrcode(
                         {
