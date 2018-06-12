@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f49c5f4-84f8-410f-9efb-2a1c7ea19b3a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/placeholder_white.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/styles.css" afterDir="false" />
@@ -18,23 +17,29 @@
     <splitter split-orientation="horizontal" split-proportion="0.76791275">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/frontend/styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="649">
-                  <caret line="46" column="51" lean-forward="true" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
+                <state relative-caret-position="341">
+                  <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/frontend/script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="162" column="51" selection-start-line="162" selection-start-column="51" selection-end-line="162" selection-end-column="51" />
-                  <folding>
-                    <element signature="n#style#0;n#i#0;n#!!top" expanded="true" />
-                  </folding>
+                <state relative-caret-position="320">
+                  <caret line="195" column="52" selection-start-line="195" selection-start-column="52" selection-end-line="195" selection-end-column="52" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/frontend/template.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="35" selection-start-column="35" selection-end-column="35" />
                 </state>
               </provider>
             </entry>
@@ -116,6 +121,7 @@
       <find>ffffff</find>
       <find>displayTime</find>
       <find>ip</find>
+      <find>News Api</find>
     </findStrings>
     <replaceStrings>
       <replace>ffffff</replace>
@@ -134,7 +140,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/locale/de_DE/LC_MESSAGES/text_field.po" />
-        <option value="$PROJECT_DIR$/frontend/template.php" />
         <option value="$PROJECT_DIR$/readme" />
         <option value="$PROJECT_DIR$/1.php" />
         <option value="$PROJECT_DIR$/assets/shortenLink.php" />
@@ -151,8 +156,9 @@
         <option value="$PROJECT_DIR$/assets/rss.svg" />
         <option value="$PROJECT_DIR$/assets/icon.svg" />
         <option value="$PROJECT_DIR$/info.json" />
-        <option value="$PROJECT_DIR$/frontend/styles.css" />
+        <option value="$PROJECT_DIR$/frontend/template.php" />
         <option value="$PROJECT_DIR$/frontend/script.js" />
+        <option value="$PROJECT_DIR$/frontend/styles.css" />
       </list>
     </option>
   </component>
@@ -278,7 +284,7 @@
       <workItem from="1528796436099" duration="1228000" />
       <workItem from="1528799147970" duration="747000" />
       <workItem from="1528799917727" duration="267000" />
-      <workItem from="1528800465556" duration="21900000" />
+      <workItem from="1528800465556" duration="25973000" />
     </task>
     <task id="LOCAL-00001" summary="added sortBy Param">
       <created>1528802752242</created>
@@ -329,11 +335,25 @@
       <option name="project" value="LOCAL" />
       <updated>1528820674203</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="image got border and round corners&#10;placeholder works">
+      <created>1528825473174</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1528825473174</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fixed all image displaying&#10;but alignment with long text dosnt work">
+      <created>1528828123102</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1528828123102</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92344000" />
+    <option name="totallyTimeSpent" value="96417000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -356,10 +376,10 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32928178" />
       <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.19402985" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12153518" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12153518" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32941177" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -388,7 +408,9 @@
     <MESSAGE value="changed backend layout" />
     <MESSAGE value="deleted unused files and updated icon" />
     <MESSAGE value="updated info.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated info.json" />
+    <MESSAGE value="image got border and round corners&#10;placeholder works" />
+    <MESSAGE value="fixed all image displaying&#10;but alignment with long text dosnt work" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed all image displaying&#10;but alignment with long text dosnt work" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/frontend/template.php">
@@ -598,13 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/gettext/gettext.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -664,13 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="46" column="51" lean-forward="true" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/rss.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -697,13 +705,24 @@
     <entry file="file://$PROJECT_DIR$/assets/placeholder_white.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="162" column="51" selection-start-line="162" selection-start-column="51" selection-end-line="162" selection-end-column="51" />
-          <folding>
-            <element signature="n#style#0;n#i#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="320">
+          <caret line="195" column="52" selection-start-line="195" selection-start-column="52" selection-end-line="195" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
         </state>
       </provider>
     </entry>

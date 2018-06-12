@@ -30,7 +30,7 @@
     border: 1px solid white;
 }
 
-canvas {
+div.newsapi_round_border_qr canvas {
     margin-top: 17px;
     margin-left: auto;
     margin-right: auto;
@@ -46,36 +46,13 @@ canvas {
     display: block;
 }
 
-.newsapi_round_border_helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-}
-
-.newsapi_image_div {
-    padding: 5px;
-    padding-bottom: 0px;
-    margin-top: -5px;
-    background-color: white;
-    margin-right: 12px;
-}
-
-.newsapi_qr_code {
-    margin-left: 12px;
-    margin-right: 12px;
-}
-
 .newsapi_source {
-    margin-right: 12px;
+    font-family: serif;
 }
 
-td.newsapi_icon {
-    background: url("../assets/rss.svg") no-repeat;
-    width: 20px;
-    margin-right: 5px;
-    margin-top: 10px !important;
+td.newsapi_td {
+    width: 122px;
 }
-
-tr td table {
-    text-align: left;
+td.newsapi_td_icon {
+    width: 50px;
 }

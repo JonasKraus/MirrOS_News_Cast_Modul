@@ -160,7 +160,7 @@ function reloadNewsapi() {
                 // Building the QR Code
                 if (newsapi_options.showQrCodes && data[i].url !== undefined) {
 
-                    var tdQrCode = $("<td/>");
+                    var tdQrCode = $("<td class='newsapi_td'/>");
                     var div = $("<div class='newsapi_round_border_qr'/>");
 
                     var ip = "<?php echo $_SERVER['SERVER_ADDR']; ?>";
@@ -183,17 +183,17 @@ function reloadNewsapi() {
                     // check if an image url is set
                     if (data[i].urlToImage !== undefined && data[i].urlToImage !== null) {
 
-                        tr.append("<td><div class='newsapi_round_border'><img class='newsapi_image' src='" + data[i].urlToImage + "'/></div></td>");
+                        tr.append("<td class='newsapi_td'><div class='newsapi_round_border'><img class='newsapi_image' src='" + data[i].urlToImage + "'/></div></td>");
                     } else {
 
-                        tr.append("<td><div class='newsapi_round_border'><img class='newsapi_image' src='/modules/newsapi/assets/placeholder_white.svg'/></div></td>");
+                        tr.append("<td class='newsapi_td'><div class='newsapi_round_border'><img class='newsapi_image' src='/modules/newsapi/assets/placeholder_white.svg'/></div></td>");
                     }
                 }
 
                 // Adding placeholder icon if no image or qr code is visible
                 if (!newsapi_options.showQrCodes && !newsapi_options.showImages) {
 
-                    tr.append("<td><div ><img class='newsapi_image_icon' src='/modules/newsapi/assets/rss.svg'/></div></td>");
+                    tr.append("<td class='newsapi_td_icon'><div ><img class='newsapi_image_icon' src='/modules/newsapi/assets/rss.svg'/></div></td>");
 
                 }
 
@@ -202,10 +202,10 @@ function reloadNewsapi() {
                 // Appending the source name
                 if (newsapi_options.showSources && data[i].source.name !== undefined) {
 
-                    appendix = "<br><i class='newsapi_source' style='font-family: Serif'>"  + data[i].source.name + "</i>";
+                    appendix = "<br/><i class='newsapi_source'>"  + data[i].source.name + "</i>";
                 }
 
-                tr.append("<td>" + data[i].title + appendix + "</td>");
+                tr.append("<td >" + data[i].title + appendix + "</td>");
 
                 // Appending the row to the table
                 $('.newsapi_table').append(tr);
