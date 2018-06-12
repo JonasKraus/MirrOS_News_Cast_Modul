@@ -12,6 +12,8 @@ $defaults->showSources = true;
 $defaults->country = 'de';
 $defaults->sortBy = 'latest';
 $defaults->check = false;
+$defaults->numDataToDisplay = 3;
+
 
 $apiKey = getConfigValue('newsapi_apiKey');
 $options = getConfigValue('newsapi_options');
@@ -27,6 +29,9 @@ if (empty($options->country)) {
 }
 if (empty($options->sortBy)) {
     $options->sortBy = $defaults->sortBy;
+}
+if (empty($options->numDataToDisplay)) {
+    $options->numDataToDisplay = $defaults->numDataToDisplay;
 }
 
 
@@ -88,7 +93,17 @@ if (empty($options->sortBy)) {
             ?>
         </select>
 
-        <label for="newsapi_apiKey"><?php echo _('Insert your ApiKey:<br>(To retrieve an ApiKey register <a href="https://newsapi.org/register" target="_blank">here</a>)') ?></label>
+        <label for="newsapi_num_articles"><?php echo _('Set the number of displayed articles.'); ?></label>
+        <input type="number"
+               name="newsapi_num_articles"
+               id="newsapi_num_articles"
+               step="1"
+               min="1"
+               max="20"
+               value="<?php print $options->numDataToDisplay; ?>"
+        />
+
+        <label for="newsapi_apiKey"><?php echo _('Insert your ApiKey:<br>(To generate an ApiKey register <a href="https://newsapi.org/register" target="_blank">here</a>)') ?></label>
         <input id="newsapi_apiKey" type="text"  name="newsapi_apiKey" value="<?php echo $apiKey; ?>" placeholder="" />
 
     </fieldset>

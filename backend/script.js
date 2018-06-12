@@ -11,7 +11,7 @@ $('#text_field__edit').click(function() {
     let showSources = $('#newsapi_show_sources').is(':checked');
     let country = $('#newsapi_country').val();
     let sortBy = $('#newsapi_sortBy').val();
-    let check = $('#newsapi_checkbox_data').is(':checked');
+    let numDataToDisplay = $('#newsapi_num_articles').val();
 
 
     let options = {
@@ -20,7 +20,7 @@ $('#text_field__edit').click(function() {
         showSources: showSources,
         country: country,
         sortBy: sortBy,
-        check: check,
+        numDataToDisplay: numDataToDisplay,
     };
 
     console.info(options);

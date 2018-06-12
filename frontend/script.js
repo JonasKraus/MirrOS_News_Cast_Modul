@@ -4,7 +4,6 @@ var newsapi_apiKey,
     url,
     articles = null,
     dataPointer,
-    numDataToDisplay = 3, // TODO set as option
     displayTime = 10000; // TODO set as option
 
 /**
@@ -129,7 +128,7 @@ function reloadNewsapi() {
 
         var dataToDisplay = new Array();
 
-        for (var i = 0; i < numDataToDisplay; i++) {
+        for (var i = 0; i < newsapi_options.numDataToDisplay; i++) {
 
             dataToDisplay[i] = articles[dataPointer];
             dataPointer++;
