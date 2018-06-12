@@ -157,31 +157,18 @@ function reloadNewsapi() {
 
             if (data[i] !== undefined) {
 
-                // Adding the Image or placeholder
-                if (newsapi_options.showImages) {
-
-                    // check if an image url is set
-                    if (data[i].urlToImage !== undefined && data[i].urlToImage !== null) {
-
-                        tr.append("<td width='120' height='120'><div class='newsapi_round_border'><img class='newsapi_image' src='" + data[i].urlToImage + "'/></div></td>");
-                    } else {
-
-                        tr.append("<td width='120' height='120'><div class='newsapi_round_border'><img class='newsapi_image' src='/modules/newsapi/assets/placeholder_white.svg'/></div></td>");
-                    }
-                }
-
                 // Building the QR Code
                 if (newsapi_options.showQrCodes && data[i].url !== undefined) {
 
-                    var tdQrCode = $("<td width='120' height='120' class='newsapi_qr_code' />");
-                    var div = $("<div class='newsapi_image_div'/>");
+                    var tdQrCode = $("<td/>");
+                    var div = $("<div class='newsapi_round_border_qr'/>");
 
                     var ip = "<?php echo $_SERVER['SERVER_ADDR']; ?>";
 
                     div.qrcode(
                         {
-                            width: 90,
-                            height: 90,
+                            width: 75,
+                            height: 75,
                             text: ip + "/modules/newsapi/assets/l.php?l=" + data[i].id + "",
                             correctLevel: 1,
                         });
@@ -190,9 +177,24 @@ function reloadNewsapi() {
                     tr.append(tdQrCode);
                 }
 
-                if (newsapi_options.showQrCodes == "no" && newsapi_options.showImages == "no") {
+                // Adding the Image or placeholder
+                if (newsapi_options.showImages) {
 
-                    tr.append("<td class='newsapi_icon'></td>");
+                    // check if an image url is set
+                    if (data[i].urlToImage !== undefined && data[i].urlToImage !== null) {
+
+                        tr.append("<td><div class='newsapi_round_border'><img class='newsapi_image' src='" + data[i].urlToImage + "'/></div></td>");
+                    } else {
+
+                        tr.append("<td><div class='newsapi_round_border'><img class='newsapi_image' src='/modules/newsapi/assets/placeholder_white.svg'/></div></td>");
+                    }
+                }
+
+                // Adding placeholder icon if no image or qr code is visible
+                if (!newsapi_options.showQrCodes && !newsapi_options.showImages) {
+
+                    tr.append("<td><div ><img class='newsapi_image_icon' src='/modules/newsapi/assets/rss.svg'/></div></td>");
+
                 }
 
 

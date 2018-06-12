@@ -20,6 +20,32 @@
     border: 1px solid white;
 }
 
+.newsapi_round_border_qr {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    background: white;
+    border: 1px solid white;
+}
+
+canvas {
+    margin-top: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.newsapi_image_icon {
+    object-fit: cover;
+    height: 40px;
+    width: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 .newsapi_round_border_helper {
     display: inline-block;
     height: 100%;
