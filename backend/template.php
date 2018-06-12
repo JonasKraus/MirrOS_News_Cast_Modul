@@ -131,8 +131,8 @@ if (empty($options->displayTime)) {
 <!-- Disclaimer for free use -->
 <p><a href="https://newsapi.org" target="_blank">Powered by newsapi.org</a></p>
 
-<div class="block__add" id="text_field__edit">
-	<button class="text-field__edit--button" href="#">
+<div class="block__add" id="newsapi__edit">
+	<button class="newsapi__edit--button" href="#">
 		<span><?php echo _('save'); ?></span>
 	</button>
 </div>

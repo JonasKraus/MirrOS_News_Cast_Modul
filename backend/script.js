@@ -2,7 +2,7 @@
  * Backend UI logic for the newsapi/logo modal.
  */
 // Uoload new logo images & handle preview.
-$('#text_field__edit').click(function() {
+$('#newsapi__edit').click(function() {
 
     $.post('setConfigValueAjax.php', {'key' : 'newsapi_apiKey', 'value' : $('#newsapi_apiKey').val()});
 
@@ -14,7 +14,6 @@ $('#text_field__edit').click(function() {
     let numDataToDisplay = $('#newsapi_num_articles').val();
     let displayTime = $('#newsapi_display_time').val();
 
-
     let options = {
         showImages: showImages,
         showQrCodes: showQrCodes,
@@ -25,12 +24,10 @@ $('#text_field__edit').click(function() {
         displayTime: displayTime,
     };
 
-    console.info(options);
-
     $.post('setConfigValueAjax.php', {'key': 'newsapi_options', 'value': JSON.stringify(options)});
 
-
     $('#ok').show(30, function() {
+
         $(this).hide('slow');
     })
 });

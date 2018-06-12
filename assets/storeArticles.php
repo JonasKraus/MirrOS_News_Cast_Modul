@@ -1,9 +1,16 @@
+
 <?php
 
+/**
+ * Saves all articles with the local id
+ * - so after scanning the qr code the user can be redirected to the original url
+ *
+ */
 if (isset($_POST['data'])) {
 
     $data = $_POST['data'];
 
+    // Setting the temporarily local id
     for ($i = 0; $i < count($data); $i++) {
 
         $data[$i]["id"] = $i;
@@ -13,10 +20,5 @@ if (isset($_POST['data'])) {
     $fp = fopen('articles.json', 'w') or die("can't open file");
     fwrite($fp, json_encode($data));
     fclose($fp);
-
-    header("Content-Type: text/html; charset=utf-8");
-
-    echo json_encode($data);
-} // TODO exception handling
-
-
+    flush();
+}

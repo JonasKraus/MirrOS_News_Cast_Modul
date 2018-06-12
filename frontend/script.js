@@ -60,7 +60,7 @@ function includeQrCodeApi() {
 
 
 /**
- * Reloading every 10 seconds
+ * Reloading every X seconds
  */
 function reloadNewsapi() {
 
@@ -92,7 +92,7 @@ function reloadNewsapi() {
 
             $.getJSON(url, function(data) {
 
-                console.info("##########request api##############");
+                //console.info("##########request api##############");
 
                 articles = addId(data.articles);
 
@@ -145,7 +145,7 @@ function reloadNewsapi() {
      */
     function createView(data) {
 
-        console.info("***********refresh newsapi************");
+        //console.info("***********refresh newsapi************");
 
         var tr; // the current table row where data gets added
 
@@ -203,7 +203,7 @@ function reloadNewsapi() {
                 // Appending the source name
                 if (newsapi_options.showSources && data[i].source.name !== undefined) {
 
-                    appendix = "<br><i class='newsapi_source'>- "  + data[i].source.name + "</i>";
+                    appendix = "<br><i class='newsapi_source' style='font-family: Serif'>"  + data[i].source.name + "</i>";
                 }
 
                 tr.append("<td>" + data[i].title + appendix + "</td>");
@@ -220,6 +220,7 @@ function reloadNewsapi() {
 /**
  * Sends the currently loaded articles to the server
  * So the server knows those data and can redirect to it
+ * if the user scanned the qr-code
  *
  * @param data
  * @param callback
@@ -244,6 +245,7 @@ function sendArticlesToServer(data, callback) {
 
 /**
  * Notifies the server of the currently displayed data
+ * Copies them temporarily
  *
  * @param data
  */
@@ -251,7 +253,6 @@ function notifyServer(data) {
 
     var timestamp = Date.now();
 
-    console.info(data[0].id, data[0].source, timestamp);
     $.ajax({
         type: "POST",
         url: "/modules/newsapi/assets/notifyServer.php",

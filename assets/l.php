@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * Script for redirecting the user after scanning a qr-code
+ */
 $id = $_GET['l'];
 
 $string = file_get_contents("articles.json");
