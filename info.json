@@ -1,17 +1,17 @@
 {
   "module": {
     "name": "News Cast",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Erhalte aktuelle Nachrichten auf dein Glancr und spiegel diese in deiner Smartphone App",
     "module_url": "https://glancr.de/module/...", // TODO
     "download_url": "https://api.glancr.de/update/moduleZips/..", // TODO
-    "category": "Nachrichten",
+    "category": "News",
     "last_update": "YYYY-MM-DD"
   },
   "creator": {
     "name": "Jonas Kraus",
-    "contact": "tg@glancr.de",
-    "website": "https://www.glancr.de",
+    "contact": "",
+    "website": "",
     "profile": ""
   }
 }
