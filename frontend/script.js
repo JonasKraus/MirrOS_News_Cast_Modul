@@ -193,7 +193,7 @@ function reloadNewsapi() {
                 // Adding placeholder icon if no image or qr code is visible
                 if (!newsapi_options.showQrCodes && !newsapi_options.showImages) {
 
-                    tr.append("<td class='newsapi_td_icon'><div ><img class='newsapi_image_icon' src='/modules/newsapi/assets/rss.svg'/></div></td>");
+                    tr.append("<td class='newsapi_td_icon'><img class='newsapi_image_icon' src='/modules/newsapi/assets/rss.svg'/></td>");
 
                 }
 

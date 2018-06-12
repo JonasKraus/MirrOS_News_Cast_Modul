@@ -38,12 +38,10 @@ div.newsapi_round_border_qr canvas {
 }
 
 .newsapi_image_icon {
-    object-fit: cover;
-    height: 40px;
-    width: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+    height: 35px;
+    width: 35px;
+    margin-top: -12px;
+    vertical-align: top;
 }
 
 .newsapi_source {
@@ -54,5 +52,5 @@ td.newsapi_td {
     width: 122px;
 }
 td.newsapi_td_icon {
-    width: 50px;
+    width: 40px;
 }
