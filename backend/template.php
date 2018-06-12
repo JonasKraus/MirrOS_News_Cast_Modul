@@ -47,9 +47,12 @@ if (empty($options->displayTime)) {
 <p><?php echo _('Enter the text you want to display, choose its font size and alignment.'); ?></p>
 
 <form id="newsapi_form">
-    <fieldset>
 
-        <label for="newsapi_show_sources"><?php echo _('Choose if you want to display the source.'); ?></label>
+    <fieldset>
+        <label for="newsapi_apiKey"><?php echo _('Insert your ApiKey:<br>(To generate an ApiKey register <a href="https://newsapi.org/register" target="_blank">here</a>)') ?></label>
+        <input id="newsapi_apiKey" type="text"  name="newsapi_apiKey" value="<?php echo $apiKey; ?>" placeholder="" />
+
+        <label for="newsapi_show_sources"><?php echo _('Show sources'); ?></label>
         <input type="checkbox"
                name="newsapi_show_sources"
                id="newsapi_show_sources"
@@ -58,7 +61,7 @@ if (empty($options->displayTime)) {
 
         <br/>
 
-        <label for="newsapi_show_images"><?php echo _('Choose if you want to display images.'); ?></label>
+        <label for="newsapi_show_images"><?php echo _('Show images'); ?></label>
         <input  type="checkbox"
                 name="newsapi_show_images"
                 id="newsapi_show_images"
@@ -66,7 +69,7 @@ if (empty($options->displayTime)) {
         />
         <br/>
 
-        <label for="newsapi_show_qrCodes"><?php echo _('Choose if you want to display qr codes.'); ?></label>
+        <label for="newsapi_show_qrCodes"><?php echo _('Show Qr-Codes'); ?></label>
         <input  type="checkbox"
                 name="newsapi_show_qrCodes"
                 id="newsapi_show_qrCodes"
@@ -74,7 +77,7 @@ if (empty($options->displayTime)) {
         />
         <br/>
 
-        <label for="newsapi_country"><?php echo _('Choose the origin of the news.'); ?></label>
+        <label for="newsapi_country"><?php echo _('Origin of the news'); ?></label>
         <select name="newsapi_country" id="newsapi_country">
             <?php
             foreach ($countries as $option) {
@@ -120,8 +123,6 @@ if (empty($options->displayTime)) {
                value="<?php print $options->displayTime; ?>"
         />
 
-        <label for="newsapi_apiKey"><?php echo _('Insert your ApiKey:<br>(To generate an ApiKey register <a href="https://newsapi.org/register" target="_blank">here</a>)') ?></label>
-        <input id="newsapi_apiKey" type="text"  name="newsapi_apiKey" value="<?php echo $apiKey; ?>" placeholder="" />
 
     </fieldset>
 

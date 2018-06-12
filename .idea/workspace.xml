@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2f49c5f4-84f8-410f-9efb-2a1c7ea19b3a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/script.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,8 +50,8 @@
           <file leaf-file-name="template.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/backend/template.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+                <state relative-caret-position="68">
+                  <caret line="44" column="2" lean-forward="true" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
@@ -263,7 +261,7 @@
       <workItem from="1528796436099" duration="1228000" />
       <workItem from="1528799147970" duration="747000" />
       <workItem from="1528799917727" duration="267000" />
-      <workItem from="1528800465556" duration="11220000" />
+      <workItem from="1528800465556" duration="12318000" />
     </task>
     <task id="LOCAL-00001" summary="added sortBy Param">
       <created>1528802752242</created>
@@ -286,11 +284,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528811979197</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added display time as option">
+      <created>1528813992636</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1528813992636</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81664000" />
+    <option name="totallyTimeSpent" value="82762000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -341,7 +346,8 @@
     <MESSAGE value="added sortBy Param" />
     <MESSAGE value="chenged options to checkboxes" />
     <MESSAGE value="added setting for num data to display" />
-    <option name="LAST_COMMIT_MESSAGE" value="added setting for num data to display" />
+    <MESSAGE value="added display time as option" />
+    <option name="LAST_COMMIT_MESSAGE" value="added display time as option" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/backend/script.js">
@@ -672,8 +678,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="68">
+          <caret line="44" column="2" lean-forward="true" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
         </state>
       </provider>
     </entry>
