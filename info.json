@@ -1,6 +1,6 @@
 {
   "module": {
-    "name": "newsapi",
+    "name": "News Cast",
     "version": "0.0.0",
     "description": "Erhalte aktuelle Nachrichten auf dein Glancr und spiegel diese in deiner Smartphone App",
     "module_url": "https://glancr.de/module/...", // TODO

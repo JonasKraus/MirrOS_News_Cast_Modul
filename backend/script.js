@@ -6,11 +6,13 @@ $('#text_field__edit').click(function() {
 
     $.post('setConfigValueAjax.php', {'key' : 'newsapi_apiKey', 'value' : $('#newsapi_apiKey').val()});
 
-    let showImages = $('#newsapi_show_images').val();
-    let showQrCodes = $('#newsapi_show_qrCodes').val();
-    let showSources = $('#newsapi_show_sources').val();
+    let showImages = $('#newsapi_show_images').is(':checked');
+    let showQrCodes = $('#newsapi_show_qrCodes').is(':checked');
+    let showSources = $('#newsapi_show_sources').is(':checked');
     let country = $('#newsapi_country').val();
     let sortBy = $('#newsapi_sortBy').val();
+    let check = $('#newsapi_checkbox_data').is(':checked');
+
 
     let options = {
         showImages: showImages,
@@ -18,7 +20,10 @@ $('#text_field__edit').click(function() {
         showSources: showSources,
         country: country,
         sortBy: sortBy,
-    }
+        check: check,
+    };
+
+    console.info(options);
 
     $.post('setConfigValueAjax.php', {'key': 'newsapi_options', 'value': JSON.stringify(options)});
 

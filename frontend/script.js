@@ -160,7 +160,7 @@ function reloadNewsapi() {
             if (data[i] !== undefined) {
 
                 // Adding the Image
-                if (newsapi_options.showImages == "yes") {
+                if (newsapi_options.showImages) {
 
                     if (data[i].urlToImage !== undefined && data[i].urlToImage !== null) {
 
@@ -176,7 +176,7 @@ function reloadNewsapi() {
                 }
 
                 // Building the QR Code
-                if (newsapi_options.showQrCodes == "yes" && data[i].url !== undefined) {
+                if (newsapi_options.showQrCodes && data[i].url !== undefined) {
 
                     var tdQrCode = $("<td height='100' width='100' class='newsapi_qr_code' />");
                     var div = $("<div class='newsapi_image_div'/>");
@@ -203,7 +203,7 @@ function reloadNewsapi() {
 
                 var appendix = "";
                 // Appending the source name
-                if (newsapi_options.showSources == "yes" && data[i].source.name !== undefined) {
+                if (newsapi_options.showSources && data[i].source.name !== undefined) {
 
                     appendix = "<br><i class='newsapi_source'>- "  + data[i].source.name + "</i>";
                 }

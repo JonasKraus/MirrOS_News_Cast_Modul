@@ -11,6 +11,7 @@ $defaults->showQrCodes = true;
 $defaults->showSources = true;
 $defaults->country = 'de';
 $defaults->sortBy = 'latest';
+$defaults->check = false;
 
 $apiKey = getConfigValue('newsapi_apiKey');
 $options = getConfigValue('newsapi_options');
@@ -21,21 +22,13 @@ if (empty($options)) {
     $options = json_decode($options);
 }
 
-if (empty($options->showImages)) {
-    $options->showImages = $defaults->showImages;
-}
-if (empty($options->showQrCodes)) {
-    $options->showQrCodes = $defaults->showQrCodes;
-}
-if (empty($options->showSources)) {
-    $options->showSources = $defaults->showSources;
-}
 if (empty($options->country)) {
     $options->country = $defaults->country;
 }
 if (empty($options->sortBy)) {
     $options->sortBy = $defaults->sortBy;
 }
+
 
 ?>
 
@@ -45,43 +38,29 @@ if (empty($options->sortBy)) {
     <fieldset>
 
         <label for="newsapi_show_sources"><?php echo _('Choose if you want to display the source.'); ?></label>
-        <select name="newsapi_show_sources" id="newsapi_show_sources">
-            <?php
-            foreach (['no', 'yes'] as $option) {
-                if ($option === $options->showSources) {
-                    print("<option selected value=\"$option\">". _($option));
-                } else {
-                    print("<option value=\"$option\">". _($option));
-                }
-            }
-            ?>
-        </select>
+        <input type="checkbox"
+               name="newsapi_show_sources"
+               id="newsapi_show_sources"
+            <?php print $options->showSources == true ? 'checked' : ''; ?>
+        />
+
+        <br/>
 
         <label for="newsapi_show_images"><?php echo _('Choose if you want to display images.'); ?></label>
-        <select name="newsapi_show_images" id="newsapi_show_images">
-            <?php
-            foreach (['no', 'yes'] as $option) {
-                if ($option === $options->showImages) {
-                    print("<option selected value=\"$option\">". _($option));
-                } else {
-                    print("<option value=\"$option\">". _($option));
-                }
-            }
-            ?>
-        </select>
+        <input  type="checkbox"
+                name="newsapi_show_images"
+                id="newsapi_show_images"
+            <?php print $options->showImages == true ? 'checked' : ''; ?>
+        />
+        <br/>
 
         <label for="newsapi_show_qrCodes"><?php echo _('Choose if you want to display qr codes.'); ?></label>
-        <select name="newsapi_show_qrCodes" id="newsapi_show_qrCodes">
-            <?php
-            foreach (['no', 'yes'] as $option) {
-                if ($option === $options->showQrCodes) {
-                    print("<option selected value=\"$option\">". _($option));
-                } else {
-                    print("<option value=\"$option\">". _($option));
-                }
-            }
-            ?>
-        </select>
+        <input  type="checkbox"
+                name="newsapi_show_qrCodes"
+                id="newsapi_show_qrCodes"
+        <?php print $options->showQrCodes == true ? 'checked' : ''; ?>
+        />
+        <br/>
 
         <label for="newsapi_country"><?php echo _('Choose the origin of the news.'); ?></label>
         <select name="newsapi_country" id="newsapi_country">
@@ -109,7 +88,7 @@ if (empty($options->sortBy)) {
             ?>
         </select>
 
-        <label for="newsapi_apiKey"><?php echo _('Insert your ApiKey.') ?></label>
+        <label for="newsapi_apiKey"><?php echo _('Insert your ApiKey:<br>(To retrieve an ApiKey register <a href="https://newsapi.org/register" target="_blank">here</a>)') ?></label>
         <input id="newsapi_apiKey" type="text"  name="newsapi_apiKey" value="<?php echo $apiKey; ?>" placeholder="" />
 
     </fieldset>
@@ -117,7 +96,7 @@ if (empty($options->sortBy)) {
 </form>
 
 <!-- Disclaimer for free use -->
-<p>Powered by newsapi.org</p>
+<p><a href="https://newsapi.org" target="_blank">Powered by newsapi.org</a></p>
 
 <div class="block__add" id="text_field__edit">
 	<button class="text-field__edit--button" href="#">
