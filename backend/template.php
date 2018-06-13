@@ -122,13 +122,19 @@ if (empty($options->displayTime)) {
                value="<?php print $options->displayTime; ?>"
         />
 
+        <input
+                style="visibility: hidden;"
+               type="text"
+               name="newsapi_local_ip"
+               id="newsapi_local_ip"
+               value="<?php echo $_SERVER['SERVER_ADDR']; ?>">
 
     </fieldset>
 
 </form>
 
 <!-- Disclaimer for free use -->
-<p><a href="https://newsapi.org" target="_blank">Powered by newsapi.org</a></p>
+<p><a href="https://newsapi.org" target="_blank">Powered by newsapi.org </a></p>
 
 <div class="block__add" id="newsapi__edit">
 	<button class="newsapi__edit--button" href="#">

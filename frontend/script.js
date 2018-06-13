@@ -163,7 +163,9 @@ function reloadNewsapi() {
                     var tdQrCode = $("<td class='newsapi_td'/>");
                     var div = $("<div class='newsapi_round_border_qr'/>");
 
-                    var ip = "<?php echo $_SERVER['SERVER_ADDR']; ?>";
+                    var ip = newsapi_options.ip;
+
+                    console.info(ip + "/modules/newsapi/assets/l.php?l=" + data[i].id + "");
 
                     div.qrcode(
                         {

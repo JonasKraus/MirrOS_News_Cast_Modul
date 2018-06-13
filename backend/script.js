@@ -13,6 +13,7 @@ $('#newsapi__edit').click(function() {
     let sortBy = $('#newsapi_sortBy').val();
     let numDataToDisplay = $('#newsapi_num_articles').val();
     let displayTime = $('#newsapi_display_time').val();
+    let ip = $('#newsapi_local_ip').val();
 
     let options = {
         showImages: showImages,
@@ -22,6 +23,7 @@ $('#newsapi__edit').click(function() {
         sortBy: sortBy,
         numDataToDisplay: numDataToDisplay,
         displayTime: displayTime,
+        ip: ip
     };
 
     $.post('setConfigValueAjax.php', {'key': 'newsapi_options', 'value': JSON.stringify(options)});

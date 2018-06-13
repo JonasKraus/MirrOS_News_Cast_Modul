@@ -45,7 +45,8 @@ div.newsapi_round_border_qr canvas {
 }
 
 .newsapi_source {
-    font-family: serif;
+    @import url('https://fonts.googleapis.com/css?family=Alegreya');
+    font-family: 'Alegreya', serif;
 }
 
 td.newsapi_td {
