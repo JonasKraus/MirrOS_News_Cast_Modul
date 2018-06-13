@@ -2,6 +2,9 @@
 
 _('newsapi_title');
 _('newsapi_description');
+_('top');
+_('latest');
+_('popular');
 
 $defaults = new StdClass();
 $defaults->showImages = true;
