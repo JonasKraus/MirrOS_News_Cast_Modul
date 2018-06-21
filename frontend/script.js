@@ -1,6 +1,6 @@
 // Global vars
-var newsapi_apiKey,
-    newsapi_options,
+var newscast_apiKey,
+    newscast_options,
     url,
     articles = null,
     dataPointer;
@@ -12,37 +12,37 @@ $(document).ready(function () {
 
     includeQrCodeApi();
 
-    newsapi_apiKey = "<?php echo getConfigValue('newsapi_apiKey'); ?>";
-    newsapi_options = JSON.parse('<?php echo getConfigValue("newsapi_options"); ?>');
+    newscast_apiKey = "<?php echo getConfigValue('newscast_apiKey'); ?>";
+    newscast_options = JSON.parse('<?php echo getConfigValue("newscast_options"); ?>');
 
-    if (newsapi_options.country == null) {
+    if (newscast_options.country == null) {
 
-        newsapi_options.country = "de";
+        newscast_options.country = "de";
     }
 
-    if (newsapi_options.showImages == null) {
+    if (newscast_options.showImages == null) {
 
-        newsapi_options.showImages = "inline";
+        newscast_options.showImages = "inline";
     }
 
-    if (newsapi_options.showQrCodes == null) {
+    if (newscast_options.showQrCodes == null) {
 
-        newsapi_options.showQrCodes = "inline";
+        newscast_options.showQrCodes = "inline";
     }
 
-    if (newsapi_options.showSources == null) {
+    if (newscast_options.showSources == null) {
 
-        newsapi_options.showSources = "inline";
+        newscast_options.showSources = "inline";
     }
 
-    if (newsapi_options.sortBy == null) {
+    if (newscast_options.sortBy == null) {
 
-        newsapi_options.sortBy = "latest";
+        newscast_options.sortBy = "latest";
     }
 
-    url = "https://newsapi.org/v2/top-headlines?country=" + newsapi_options.country  + "&apiKey=" + newsapi_apiKey + "&sortBy=" + newsapi_options.sortBy;
+    url = "https://newsapi.org/v2/top-headlines?country=" + newscast_options.country  + "&apiKey=" + newscast_apiKey + "&sortBy=" + newscast_options.sortBy;
 
-    reloadNewsapi();
+    reloadNewscast();
 });
 
 /**
@@ -62,16 +62,16 @@ function includeQrCodeApi() {
 /**
  * Reloading every X seconds
  */
-function reloadNewsapi() {
+function reloadNewscast() {
 
-    requestNewsapi();
+    requestNewscast();
 
     $(document).ready(function() {
 
         window.setTimeout(function() {
 
-            reloadNewsapi(); // looping
-        }, newsapi_options.displayTime * 1000); // Multiply by 1000 to get milliseconds
+            reloadNewscast(); // looping
+        }, newscast_options.displayTime * 1000); // Multiply by 1000 to get milliseconds
     });
 
 
@@ -79,7 +79,7 @@ function reloadNewsapi() {
      * Sending the actual api request or get the next chunk
      * then creating the view
      */
-    function requestNewsapi() {
+    function requestNewscast() {
 
         if (articles != null && dataPointer < articles.length) {
 
@@ -127,7 +127,7 @@ function reloadNewsapi() {
 
         var dataToDisplay = new Array();
 
-        for (var i = 0; i < newsapi_options.numDataToDisplay; i++) {
+        for (var i = 0; i < newscast_options.numDataToDisplay; i++) {
 
             dataToDisplay[i] = articles[dataPointer];
             dataPointer++;
@@ -148,30 +148,28 @@ function reloadNewsapi() {
         //console.info("***********refresh newsapi************");
 
         // Removing old rows from table
-        $('tr.newsapi_tr').remove();
+        $('tr.newscast_tr').remove();
 
         for(var i = 0; i <= data.length; i++) {
 
             // the current table row where data gets added
-            var tr = $('<tr class="newsapi_tr"/>').hide();
+            var tr = $('<tr class="newscast_tr"/>').hide();
 
             if (data[i] !== undefined) {
 
                 // Building the QR Code
-                if (newsapi_options.showQrCodes && data[i].url !== undefined) {
+                if (newscast_options.showQrCodes && data[i].url !== undefined) {
 
-                    var tdQrCode = $("<td class='newsapi_td'/>");
-                    var div = $("<div class='newsapi_round_border_qr'/>");
+                    var tdQrCode = $("<td class='newscast_td'/>");
+                    var div = $("<div class='newscast_round_border_qr'/>");
 
-                    var ip = newsapi_options.ip;
-
-                    console.info(ip + "/modules/newsapi/assets/l.php?l=" + data[i].id + "");
+                    var ip = newscast_options.ip;
 
                     div.qrcode(
                         {
                             width: 75,
                             height: 75,
-                            text: ip + "/modules/newsapi/assets/l.php?l=" + data[i].id + "",
+                            text: ip + "/modules/newscast/assets/l.php?l=" + data[i].id + "",
                             correctLevel: 1,
                         });
 
@@ -180,35 +178,35 @@ function reloadNewsapi() {
                 }
 
                 // Adding the Image or placeholder
-                if (newsapi_options.showImages) {
+                if (newscast_options.showImages) {
 
                     // check if an image url is set
                     if (data[i].urlToImage !== undefined && data[i].urlToImage !== null) {
 
-                        tr.append("<td class='newsapi_td'><div class='newsapi_round_border'><img class='newsapi_image' src='" + data[i].urlToImage + "'/></div></td>");
+                        tr.append("<td class='newscast_td'><div class='newscast_round_border'><img class='newscast_image' src='" + data[i].urlToImage + "'/></div></td>");
                     } else {
 
-                        tr.append("<td class='newsapi_td'><div class='newsapi_round_border'><img class='newsapi_image' src='/modules/newsapi/assets/placeholder_white.svg'/></div></td>");
+                        tr.append("<td class='newscast_td'><div class='newscast_round_border'><img class='newscast_image' src='/modules/newscast/assets/placeholder_white.svg'/></div></td>");
                     }
                 }
 
                 // Adding placeholder icon if no image or qr code is visible
-                if (!newsapi_options.showQrCodes && !newsapi_options.showImages) {
+                if (!newscast_options.showQrCodes && !newscast_options.showImages) {
 
-                    tr.append("<td class='newsapi_td_icon'><img class='newsapi_image_icon' src='/modules/newsapi/assets/rss.svg'/></td>");
+                    tr.append("<td class='newscast_td_icon'><img class='newscast_image_icon' src='/modules/newscast/assets/rss.svg'/></td>");
                 }
 
                 var appendix = "";
                 // Appending the source name
-                if (newsapi_options.showSources && data[i].source.name !== undefined) {
+                if (newscast_options.showSources && data[i].source.name !== undefined) {
 
-                    appendix = "<br/><i class='newsapi_source'>"  + data[i].source.name + "</i>";
+                    appendix = "<br/>"  + data[i].source.name + "";
                 }
 
                 tr.append("<td>" + data[i].title + appendix + "</td>");
 
                 // Appending the row to the table
-                $('.newsapi_table').append(tr);
+                $('.newscast_table').append(tr);
 
                 $(tr).show('slow');
             }
@@ -230,7 +228,7 @@ function sendArticlesToServer(data, callback) {
 
     $.ajax({
         type: "POST",
-        url: "/modules/newsapi/assets/storeArticles.php",
+        url: "/modules/newscast/assets/storeArticles.php",
         data: {data: data},
         success: function (response) {
 
@@ -256,11 +254,11 @@ function notifyServer(data) {
 
     $.ajax({
         type: "POST",
-        url: "/modules/newsapi/assets/notifyServer.php",
+        url: "/modules/newscast/assets/notifyServer.php",
         data: {
                 data: data,
                 timestamp: timestamp,
-                displayTime: (newsapi_options.displayTime * 1000)
+                displayTime: (newscast_options.displayTime * 1000)
             },
         success: function (response) {
 

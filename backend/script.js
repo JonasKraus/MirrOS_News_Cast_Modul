@@ -2,18 +2,18 @@
  * Backend UI logic for the newsapi/logo modal.
  */
 // Uoload new logo images & handle preview.
-$('#newsapi__edit').click(function() {
+$('#newscast__edit').click(function() {
 
-    $.post('setConfigValueAjax.php', {'key' : 'newsapi_apiKey', 'value' : $('#newsapi_apiKey').val()});
+    $.post('setConfigValueAjax.php', {'key' : 'newscast_apiKey', 'value' : $('#newscast_apiKey').val()});
 
-    let showImages = $('#newsapi_show_images').is(':checked');
-    let showQrCodes = $('#newsapi_show_qrCodes').is(':checked');
-    let showSources = $('#newsapi_show_sources').is(':checked');
-    let country = $('#newsapi_country').val();
-    let sortBy = $('#newsapi_sortBy').val();
-    let numDataToDisplay = $('#newsapi_num_articles').val();
-    let displayTime = $('#newsapi_display_time').val();
-    let ip = $('#newsapi_local_ip').val();
+    let showImages = $('#newscast_show_images').is(':checked');
+    let showQrCodes = $('#newscast_show_qrCodes').is(':checked');
+    let showSources = $('#newscast_show_sources').is(':checked');
+    let country = $('#newscast_country').val();
+    let sortBy = $('#newscast_sortBy').val();
+    let numDataToDisplay = $('#newscast_num_articles').val();
+    let displayTime = $('#newscast_display_time').val();
+    let ip = $('#newscast_local_ip').val();
 
     let options = {
         showImages: showImages,
@@ -26,7 +26,7 @@ $('#newsapi__edit').click(function() {
         ip: ip
     };
 
-    $.post('setConfigValueAjax.php', {'key': 'newsapi_options', 'value': JSON.stringify(options)});
+    $.post('setConfigValueAjax.php', {'key': 'newscast_options', 'value': JSON.stringify(options)});
 
     $('#ok').show(30, function() {
 

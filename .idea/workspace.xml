@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f49c5f4-84f8-410f-9efb-2a1c7ea19b3a" name="Default" comment="ignoring files">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MirrOS_News_Cast_Modul.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme" beforeDir="false" afterPath="$PROJECT_DIR$/readme" afterDir="false" />
+    <list default="true" id="2f49c5f4-84f8-410f-9efb-2a1c7ea19b3a" name="Default" comment="edit readme">
+      <change afterPath="$PROJECT_DIR$/locale/en_GB/LC_MESSAGES/newscast.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/es_ES/LC_MESSAGES/newscast.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/fr_FR/LC_MESSAGES/newscast.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locale/fr_FR/LC_MESSAGES/newscast.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locale/de_DE/LC_MESSAGES/newsapi.mo" beforeDir="false" afterPath="$PROJECT_DIR$/locale/de_DE/LC_MESSAGES/newscast.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locale/de_DE/LC_MESSAGES/newsapi.po" beforeDir="false" afterPath="$PROJECT_DIR$/locale/es_ES/LC_MESSAGES/newscast.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locale/en_GB/LC_MESSAGES/newsapi.mo" beforeDir="false" afterPath="$PROJECT_DIR$/locale/en_GB/LC_MESSAGES/newscast.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locale/en_GB/LC_MESSAGES/newsapi.po" beforeDir="false" afterPath="$PROJECT_DIR$/locale/de_DE/LC_MESSAGES/newscast.po" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,121 +25,86 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3598301">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/frontend/styles.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="799">
-                  <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/frontend/script.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="18">
-                  <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/frontend/template.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="webServers.xml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/.idea/webServers.xml">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="readme" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/readme">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="storeArticles.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/storeArticles.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/backend/template.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="newsapi.po" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/locale/de_DE/LC_MESSAGES/newsapi.po">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="16" selection-end-column="43" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="newsapi.po" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/locale/en_GB/LC_MESSAGES/newsapi.po">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="476">
-                  <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="info.json" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/info.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/backend/script.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="49" column="35" lean-forward="true" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="197" lean-forward="true" selection-start-line="197" selection-end-line="197" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="storeArticles.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/storeArticles.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="109" column="22" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newscast.po" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/locale/fr_FR/LC_MESSAGES/newscast.po">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="info.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/info.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -146,7 +115,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Choose how you want the text aligned in its cell.</find>
       <find>text_field_form</find>
       <find>text_field_title</find>
       <find>text_field_description</find>
@@ -158,7 +126,6 @@
       <find>read</find>
       <find>short</find>
       <find>notifyServer</find>
-      <find>newsapi</find>
       <find>text_field__edit</find>
       <find>showSources</find>
       <find>showImages</find>
@@ -175,10 +142,14 @@
       <find>deleteTableRows</find>
       <find>Enter the text you want to display, choose its font size and alignment.</find>
       <find>setlocale</find>
+      <find>newsapi_</find>
+      <find>newsapi</find>
+      <find>Powered</find>
     </findStrings>
     <replaceStrings>
       <replace>ffffff</replace>
       <replace>1A171B</replace>
+      <replace>newscast_</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -205,20 +176,23 @@
         <option value="$PROJECT_DIR$/assets/rss.svg" />
         <option value="$PROJECT_DIR$/assets/icon.svg" />
         <option value="$PROJECT_DIR$/frontend/template.php" />
-        <option value="$PROJECT_DIR$/frontend/styles.css" />
-        <option value="$PROJECT_DIR$/frontend/script.js" />
         <option value="$PROJECT_DIR$/locale/de_DE/LC_MESSAGES/text_field.po" />
         <option value="$PROJECT_DIR$/locale/en_GB/LC_MESSAGES/text_field.po" />
-        <option value="$PROJECT_DIR$/backend/messages.po" />
         <option value="$PROJECT_DIR$/locale/de_DE/LC_MESSAGES/messages.po" />
         <option value="$PROJECT_DIR$/locale/de_DE/LC_MESSAGES/messages.mo" />
-        <option value="$PROJECT_DIR$/backend/script.js" />
-        <option value="$PROJECT_DIR$/backend/template.php" />
         <option value="$PROJECT_DIR$/locale/de_DE/LC_MESSAGES/newsapi.po" />
         <option value="$PROJECT_DIR$/locale/en_GB/LC_MESSAGES/messages.po" />
         <option value="$PROJECT_DIR$/info.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/readme" />
+        <option value="$PROJECT_DIR$/backend/script.js" />
+        <option value="$PROJECT_DIR$/backend/template.php" />
+        <option value="$PROJECT_DIR$/backend/messages.po" />
+        <option value="$PROJECT_DIR$/locale/de_DE/LC_MESSAGES/newscast.po" />
+        <option value="$PROJECT_DIR$/locale/es_ES/LC_MESSAGES/newscast.po" />
+        <option value="$PROJECT_DIR$/locale/fr_FR/LC_MESSAGES/newscast.po" />
+        <option value="$PROJECT_DIR$/frontend/styles.css" />
+        <option value="$PROJECT_DIR$/frontend/script.js" />
       </list>
     </option>
   </component>
@@ -239,10 +213,93 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MirrOS_News_Cast_Modul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newscast" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MirrOS_News_Cast_Modul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newscast" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MirrOS_News_Cast_Modul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newscast" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MirrOS_News_Cast_Modul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newscast" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MirrOS_News_Cast_Modul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newscast" type="462c0819:PsiDirectoryNode" />
+              <item name="locale" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MirrOS_News_Cast_Modul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newscast" type="462c0819:PsiDirectoryNode" />
+              <item name="locale" type="462c0819:PsiDirectoryNode" />
+              <item name="de_DE" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MirrOS_News_Cast_Modul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newscast" type="462c0819:PsiDirectoryNode" />
+              <item name="locale" type="462c0819:PsiDirectoryNode" />
+              <item name="de_DE" type="462c0819:PsiDirectoryNode" />
+              <item name="LC_MESSAGES" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MirrOS_News_Cast_Modul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newscast" type="462c0819:PsiDirectoryNode" />
+              <item name="locale" type="462c0819:PsiDirectoryNode" />
+              <item name="en_GB" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MirrOS_News_Cast_Modul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newscast" type="462c0819:PsiDirectoryNode" />
+              <item name="locale" type="462c0819:PsiDirectoryNode" />
+              <item name="en_GB" type="462c0819:PsiDirectoryNode" />
+              <item name="LC_MESSAGES" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MirrOS_News_Cast_Modul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newscast" type="462c0819:PsiDirectoryNode" />
+              <item name="locale" type="462c0819:PsiDirectoryNode" />
+              <item name="es_ES" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MirrOS_News_Cast_Modul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newscast" type="462c0819:PsiDirectoryNode" />
+              <item name="locale" type="462c0819:PsiDirectoryNode" />
+              <item name="es_ES" type="462c0819:PsiDirectoryNode" />
+              <item name="LC_MESSAGES" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MirrOS_News_Cast_Modul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newscast" type="462c0819:PsiDirectoryNode" />
+              <item name="locale" type="462c0819:PsiDirectoryNode" />
+              <item name="fr_FR" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MirrOS_News_Cast_Modul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newscast" type="462c0819:PsiDirectoryNode" />
+              <item name="locale" type="462c0819:PsiDirectoryNode" />
+              <item name="fr_FR" type="462c0819:PsiDirectoryNode" />
+              <item name="LC_MESSAGES" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -253,64 +310,12 @@
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="newsapi" type="cbb8eebc:String" user="newsapi" />
-              <item name="assets" type="cbb8eebc:String" user="assets" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="MirrOS_News_Cast_Modul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newsapi" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="cbb8eebc:String" user="backend" />
             </path>
             <path>
-              <item name="MirrOS_News_Cast_Modul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newsapi" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MirrOS_News_Cast_Modul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newsapi" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MirrOS_News_Cast_Modul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newsapi" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MirrOS_News_Cast_Modul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newsapi" type="462c0819:PsiDirectoryNode" />
-              <item name="locale" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MirrOS_News_Cast_Modul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newsapi" type="462c0819:PsiDirectoryNode" />
-              <item name="locale" type="462c0819:PsiDirectoryNode" />
-              <item name="de_DE" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MirrOS_News_Cast_Modul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newsapi" type="462c0819:PsiDirectoryNode" />
-              <item name="locale" type="462c0819:PsiDirectoryNode" />
-              <item name="de_DE" type="462c0819:PsiDirectoryNode" />
-              <item name="LC_MESSAGES" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MirrOS_News_Cast_Modul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newsapi" type="462c0819:PsiDirectoryNode" />
-              <item name="locale" type="462c0819:PsiDirectoryNode" />
-              <item name="en_GB" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MirrOS_News_Cast_Modul" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newsapi" type="462c0819:PsiDirectoryNode" />
-              <item name="locale" type="462c0819:PsiDirectoryNode" />
-              <item name="en_GB" type="462c0819:PsiDirectoryNode" />
-              <item name="LC_MESSAGES" type="462c0819:PsiDirectoryNode" />
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="newsapi" type="cbb8eebc:String" user="newsapi" />
+              <item name="frontend" type="cbb8eebc:String" user="frontend" />
             </path>
           </expand>
           <select />
@@ -333,16 +338,18 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Jonas\Documents\Workspaces\PhpStorm\Glancr\MirrOS_News_Cast_Modul\newsapi\locale\de_DE\LC_MESSAGES" />
-      <recent name="C:\Users\Jonas\Documents\Workspaces\PhpStorm\Glancr\MirrOS_News_Cast_Modul\newsapi\assets" />
-      <recent name="C:\Users\Jonas\Documents\Workspaces\PhpStorm\Glancr\newsapi" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Jonas\Documents\Workspaces\PhpStorm\Glancr\MirrOS_News_Cast_Modul\newsapi\locale\en_GB\LC_MESSAGES" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonas\Documents\Workspaces\PhpStorm\Glancr\MirrOS_News_Cast_Modul\newscast\locale\fr_FR\LC_MESSAGES" />
+      <recent name="C:\Users\Jonas\Documents\Workspaces\PhpStorm\Glancr\MirrOS_News_Cast_Modul\newscast\locale\es_ES\LC_MESSAGES" />
+      <recent name="C:\Users\Jonas\Documents\Workspaces\PhpStorm\Glancr\MirrOS_News_Cast_Modul\newscast\locale\de_DE\LC_MESSAGES" />
+      <recent name="C:\Users\Jonas\Documents\Workspaces\PhpStorm\Glancr\MirrOS_News_Cast_Modul\newscast\locale\en_GB\LC_MESSAGES" />
+      <recent name="C:\Users\Jonas\Documents\Workspaces\PhpStorm\Glancr\MirrOS_News_Cast_Modul\newscast\locale" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -385,7 +392,12 @@
       <workItem from="1528799147970" duration="747000" />
       <workItem from="1528799917727" duration="267000" />
       <workItem from="1528800465556" duration="36157000" />
-      <workItem from="1528875955629" duration="6729000" />
+      <workItem from="1528875955629" duration="11338000" />
+      <workItem from="1529605810834" duration="27000" />
+      <workItem from="1529605959312" duration="1447000" />
+      <workItem from="1529607737437" duration="27000" />
+      <workItem from="1529607897568" duration="1401000" />
+      <workItem from="1529609334190" duration="3644000" />
     </task>
     <task id="LOCAL-00001" summary="added sortBy Param">
       <created>1528802752242</created>
@@ -492,11 +504,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528881571341</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="edit readme">
+      <created>1528883312357</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1528883312357</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113330000" />
+    <option name="totallyTimeSpent" value="124485000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -517,12 +536,12 @@
       <window_info anchor="bottom" id="File Transfer" order="8" weight="0.35080215" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32941177" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32834226" />
-      <window_info anchor="right" id="Remote Host" order="3" weight="0.19402985" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12260128" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32834226" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.26226014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12793177" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32941177" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -530,9 +549,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,44 +589,10 @@
     <MESSAGE value="started translation - not working" />
     <MESSAGE value="full localization" />
     <MESSAGE value="ignoring files" />
-    <option name="LAST_COMMIT_MESSAGE" value="ignoring files" />
+    <MESSAGE value="edit readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit readme" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="150" column="18" lean-forward="true" selection-start-line="150" selection-start-column="18" selection-end-line="150" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/info.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -692,9 +677,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1.php" />
     <entry file="file://$PROJECT_DIR$/config.txt" />
-    <entry file="file://$PROJECT_DIR$/mirros_dump_1527153654.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mirros_dump_1527153654.json" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/inotify/inotify.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -740,13 +723,6 @@
     <entry file="file://$PROJECT_DIR$/assets/placeholder_white.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/storeArticles.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -757,74 +733,65 @@
     <entry file="file://$PROJECT_DIR$/locale/de_DE/LC_MESSAGES/text_field.mo" />
     <entry file="file://$PROJECT_DIR$/locale/de_DE/LC_MESSAGES/text_field.po" />
     <entry file="file://$PROJECT_DIR$/locale/en_GB/LC_MESSAGES/text_field.po" />
-    <entry file="file://$PROJECT_DIR$/locale/de_DE/LC_MESSAGES/newsapi.mo">
+    <entry file="file://$PROJECT_DIR$/locale/de_DE/LC_MESSAGES/newsapi.mo" />
+    <entry file="file://$PROJECT_DIR$/locale/de_DE/LC_MESSAGES/newsapi_.po" />
+    <entry file="file://$PROJECT_DIR$/locale/en_GB/LC_MESSAGES/newsapi.po" />
+    <entry file="file://$PROJECT_DIR$/locale/de_DE/LC_MESSAGES/newsapi.po" />
+    <entry file="file://$PROJECT_DIR$/locale/en_GB/LC_MESSAGES/newsapi.po" />
+    <entry file="file://$PROJECT_DIR$/frontend/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="68">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/locale/de_DE/LC_MESSAGES/newsapi_.po">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/locale/en_GB/LC_MESSAGES/newsapi.po">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/locale/de_DE/LC_MESSAGES/newsapi.po">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="16" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/locale/en_GB/LC_MESSAGES/newsapi.po">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/info.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="425">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/webServers.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/messages.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="42" column="52" lean-forward="true" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/en_GB/LC_MESSAGES/newscast.po">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/de_DE/LC_MESSAGES/newscast.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/es_ES/LC_MESSAGES/newscast.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/fr_FR/LC_MESSAGES/newscast.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -833,10 +800,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme">
+    <entry file="file://$PROJECT_DIR$/info.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        <state relative-caret-position="221">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="49" column="35" lean-forward="true" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="109" column="22" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="197" lean-forward="true" selection-start-line="197" selection-end-line="197" />
         </state>
       </provider>
     </entry>
