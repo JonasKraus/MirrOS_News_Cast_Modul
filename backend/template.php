@@ -122,13 +122,6 @@ if (empty($options->displayTime)) {
                value="<?php print $options->displayTime; ?>"
         />
 
-        <input
-                style="visibility: hidden;"
-               type="text"
-               name="newscast_local_ip"
-               id="newscast_local_ip"
-               value="<?php echo $_SERVER['SERVER_ADDR']; ?>">
-
     </fieldset>
 
 </form>

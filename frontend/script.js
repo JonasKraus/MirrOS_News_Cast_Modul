@@ -3,7 +3,8 @@ var newscast_apiKey,
     newscast_options,
     url,
     articles = null,
-    dataPointer;
+    dataPointer,
+    ip;
 
 /**
  * On Ready
@@ -163,13 +164,13 @@ function reloadNewscast() {
                     var tdQrCode = $("<td class='newscast_td'/>");
                     var div = $("<div class='newscast_round_border_qr'/>");
 
-                    var ip = newscast_options.ip;
+                    var ip = "<?php echo getConfigValue('ip'); ?>";
 
                     div.qrcode(
                         {
                             width: 75,
                             height: 75,
-                            text: ip + "/modules/newscast/assets/l.php?l=" + data[i].id + "",
+                            text: "http://" + ip + "/modules/newscast/assets/l.php?l=" + data[i].id + "",
                             correctLevel: 1,
                         });
 

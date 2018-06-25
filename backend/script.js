@@ -13,7 +13,6 @@ $('#newscast__edit').click(function() {
     let sortBy = $('#newscast_sortBy').val();
     let numDataToDisplay = $('#newscast_num_articles').val();
     let displayTime = $('#newscast_display_time').val();
-    let ip = $('#newscast_local_ip').val();
 
     let options = {
         showImages: showImages,
@@ -22,8 +21,7 @@ $('#newscast__edit').click(function() {
         country: country,
         sortBy: sortBy,
         numDataToDisplay: numDataToDisplay,
-        displayTime: displayTime,
-        ip: ip
+        displayTime: displayTime
     };
 
     $.post('setConfigValueAjax.php', {'key': 'newscast_options', 'value': JSON.stringify(options)});
