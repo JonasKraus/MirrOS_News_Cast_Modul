@@ -1,2 +1,4 @@
-.idea/*
+/.idea/*
 assets/icon.ai
+/.idea/webServers.xml
+/.idea/workspace.xml
