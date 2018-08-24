@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="92d8561d-20ec-4687-8a25-266415ad3eee" name="Mirr.OS" url="http://192.168.2.122">
-        <fileTransfer host="192.168.2.122" port="22" rootFolder="/var/www/html/modules/newscast" accessType="SFTP">
+      <webServer id="92d8561d-20ec-4687-8a25-266415ad3eee" name="Mirr.OS" url="http://192.168.2.110">
+        <fileTransfer host="192.168.2.110" port="22" rootFolder="/var/www/html/modules/newscast" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
